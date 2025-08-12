@@ -1,0 +1,125 @@
+.bg-darks {
+  background-color: #282c34;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-fit-content {
+  width: fit-content;
+}
+
+.f-700 {
+  font-weight: 700;
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+.large-text {
+  font-size: 2.5rem;
+}
+
+.medium-text {
+  font-size: .90rem;
+}
+
+.small-text {
+  font-size: 0.75rem;
+}
+
+.row {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #00ABB3;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #00939a;
+}
+
+.f-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-app {
+  background-color: #00ABB3;
+}
+
+.text-app {
+  color: #00ABB3;
+}
+
+.btn-app:hover {
+  background-color: #00939a;
+}
+
+.btn-app:focus {
+  background-color: #00939a;
+}
+
+.bnav-link {
+  width: 20%;
+}
+
+p {
+  text-align: justify;
+}
+
+textarea {
+  resize: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.nav-pills .nav-item .nav-link {
+  color: #00ABB3;
+}
+
+.nav-pills .nav-item .nav-link.active {
+  background-color: #00ABB3;
+  color: white;
+}
+
+.grp-btn {
+  flex: 1 1 auto;
+  width: 1%;
+  min-width: 0;
+}
+
+.bg-bg {
+  background-color: white;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    background-color: #282c34;
+    color: rgb(222, 222, 222);
+  }
+
+  .text-color {
+    color: rgb(222, 222, 222);
+  }
+
+  .bg-bg {
+    background-color: #282c34;
+  }
+
+  
+}
+
+div.dark-mode-border {
+  border-color: #6c757d;
+}
